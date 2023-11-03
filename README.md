@@ -43,19 +43,21 @@ Matriz de adjacência inserida:
 0 1 0 0
 0 0 0 0
 
-Nº de vértices: 4
-Grafo não direcionado:
-Grau de cada vértice: [2, 2, 1, 0]
+3. **Graph Information**:
 
-Propriedades do Grafo:
-Simples: true
-Completo: false
-Grafo com loop/laço: false
-Pseudografo: false
-Conexo: true
-Multigrafo: false
-Multigrafo direcionado: false
+- Nº de vértices: 4
+- Grafo não direcionado:
+  - Grau de cada vértice: [2, 2, 1, 0]
 
+4. **Graph Properties**:
+
+- Simples: true
+- Completo: false
+- Grafo com loop/laço: false
+- Pseudografo: false
+- Conexo: true
+- Multigrafo: false
+- Multigrafo direcionado: false
 
 ## License
 
