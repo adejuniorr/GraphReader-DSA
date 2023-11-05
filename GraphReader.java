@@ -82,7 +82,7 @@ public class GraphReader {
                     isMultiGraph = true; // The graph is a multi graph
                 }
 
-                if (adjencyMatrix[i][j] != adjencyMatrix[j][i] && (adjencyMatrix[i][j] > 1 || hasLoop)) { // If the a[i][j] element is not equal to a[j][i] element (the matrix is not symmetric) and has at least one parallel edge
+                if ((adjencyMatrix[i][j] != adjencyMatrix[j][i]) && (hasLoop || adjencyMatrix[i][j] > 1)) { // If the a[i][j] element is not equal to a[j][i] element (the matrix is not symmetric) and has at least one parallel edge or has a loop
                     isDirectedMultiGraph = true; // The graph is a directed multi graph
                 } // end if isDirectedMultiGraph
 
